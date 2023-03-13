@@ -1,0 +1,63 @@
+languageCode = "en-us"
+theme = "terminal"
+paginate = 5
+title = "Fearless Geek Media - Charlotte area website design, development, and multimedia"
+baseurl = "/"
+replacements = "github.com/panr/hugo-theme-terminal -> terminal"
+
+[params]
+  contentTypeName = "content"
+  themeColor = "green"
+  showMenuItems = 10
+  fullWidthTheme = false
+  centerTheme = true
+
+[markup.goldmark.renderer] 
+  unsafe = true
+
+[languages]
+  [languages.en]
+    title = "Fealess Geek Media"
+    subtitle = "Serving you fearlessly!"
+    keywords = "website, design, development, charlotte, north, carolina, dentistry, restaraunt, game, linux"
+    copyright = "2023"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Fearless Geek Media"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = -10
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = -9
+      [[languages.en.menu.main]]
+        identifier = "services"
+        name = "Services"
+        url = "/services"
+        weight = -8
+      [[languages.en.menu.main]]
+        identifier = "portfolio"
+        name = "Portfolio"
+        url = "/portfolio"
+        weight = -7
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog and News"
+        url = "/blog"
+        weight = -7
+      [[languages.en.menu.main]]
+        identifier = "contact-us"
+        name = "Contact for Discovery Session"
+        url = "/contact-us"
+        weight = -5
+
